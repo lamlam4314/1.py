@@ -23,6 +23,5 @@
     
     else:
         print("Invalid choice. Please try again.")
-My Stats 📈
-
-Your GitHub Stats
+#### My Stats 📈
+![Your GitHubStats](https://github-readme-stats.vercel.app/api?username=harryngai&show_icons=true&theme=tokyonight)
