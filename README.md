@@ -23,3 +23,6 @@
     
     else:
         print("Invalid choice. Please try again.")
+My Stats 📈
+
+Your GitHub Stats
