@@ -34,3 +34,6 @@ city = "London"
 
 get_weather(api_key, city)
 
+-->
+#### My Stats 📈
+![Your GitHub Stats](https://github-readme-stats.vercel.app/api?username=lamlam4314&show_icons=true&theme=tokyonight)
