@@ -24,4 +24,4 @@
     else:
         print("Invalid choice. Please try again.")
 #### My Stats 📈
-![Your GitHubStats](https://github-readme-stats.vercel.app/api?username=harryngai&show_icons=true&theme=tokyonight)
+![Your GitHubStats](https://github-readme-stats.vercel.app/api?username=lamlam4314&show_icons=true&theme=tokyonight)
