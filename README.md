@@ -24,5 +24,5 @@
     else:
         print("Invalid choice. Please try again.")
 My Stats 📈
-
+main
 Your GitHub Stats
