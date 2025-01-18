@@ -1,1 +1,36 @@
+import requests
+
+def get_weather(api_key, city):
+# OpenWeatherMap API的URL
+url = f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api_key}&units=metric"
+
+# 发送GET请求
+response = requests.get(url)
+
+# 检查请求是否成功
+if response.status_code == 200:
+    data = response.json()
+    
+    # 解析JSON数据
+    weather = data['weather'][0]['description']
+    temperature = data['main']['temp']
+    humidity = data['main']['humidity']
+    wind_speed = data['wind']['speed']
+    
+    # 打印天气信息
+    print(f"Weather in {city}:")
+    print(f"Description: {weather}")
+    print(f"Temperature: {temperature}°C")
+    print(f"Humidity: {humidity}%")
+    print(f"Wind Speed: {wind_speed} m/s")
+else:
+    print(f"Failed to retrieve weather data. Status code: {response.status_code}")
+if name == "main":
+# 替换为你的OpenWeatherMap API密钥
+api_key = "your_openweathermap_api_key"
+
+# 替换为你想要查询的城市
+city = "London"
+
+get_weather(api_key, city)
 
